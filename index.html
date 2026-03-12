@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavsar Harsh - Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#cover" class="nav-logo">Harsh Bhavsar</a>
+            <div class="nav-menu">
+                <a href="#introduction" class="nav-link">About</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#leadership" class="nav-link">Leadership</a>
+                <button class="nav-theme-toggle" id="navThemeToggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Cover Page -->
+    <section id="cover" class="cover-section">
+        <div class="cover-content">
+            <div class="cover-text">
+                <h1 class="cover-title">Bhavsar Harsh</h1>
+                <p class="cover-subtitle">Computer Engineering Student | Full-Stack Developer</p>
+                <div class="cover-details">
+                    <p><i class="fas fa-university"></i> Pandit Deendayal Petroleum University</p>
+                    <p><i class="fas fa-graduation-cap"></i> B.Tech in Computer Engineering | CGPA: 9.37 | 6th Semester</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Ahmedabad, India</p>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:bhavsarharsh155@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/harsh-bhavsar-6559b62a8" target="_blank" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Harsh15505" target="_blank" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="tel:+917043784439" class="social-link" title="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="profile-image-container">
+                <img src="assets/images/profile-photo.png" alt="Bhavsar Harsh" class="profile-image">
+            </div>
+            <a href="#introduction" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section 2: About Me -->
+    <section id="introduction" class="intro-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p>I'm <strong>Bhavsar Harsh</strong>, a Computer Engineering student at Pandit Deendayal Petroleum University (PDPU) with a CGPA of 9.37 (6th Semester). I specialize in full-stack development, AI-powered systems, and building scalable web applications.</p>
+                    
+                    <p>My technical experience includes qualifying JEE Advanced 2023 and participating in Smart India Hackathon 2024. I've built production-grade systems including an Urban Intelligence Platform with AI-powered decision support and 7-day forecasting, WorkZen HRMS, an expense management platform with OCR, and a 3D terrain renderer using OpenGL.</p>
+                    
+                    <p>I'm passionate about solving real-world problems through technology—from urban risk prediction and AI-driven citizen engagement to streamlining HR processes and visualizing complex data. I'm currently seeking internship opportunities where I can contribute to impactful projects and grow as a software engineer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Resume / CV -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <h2 class="section-title">Resume / CV</h2>
+            
+            <!-- Education -->
+            <div class="resume-block">
+                <div class="resume-header">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Education</h3>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Aug 2023 – Present</div>
+                        <div class="timeline-content">
+                            <h4>Bachelor of Technology - Computer Engineering</h4>
+                            <p class="institution">Pandit Deendayal Petroleum University (PDPU)</p>
+                            <p class="highlight"><strong>CGPA: 9.37</strong> (6th Semester)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 2023</div>
+                        <div class="timeline-content">
+                            <h4>Class 12 - Science Stream (GSEB)</h4>
+                            <p class="institution">Doon School of Excellence</p>
+                            <p><strong>Percentage:</strong> 76.64%</p>
+                            <p><strong>JEE Main Rank:</strong> 36641 | <strong>Qualified JEE Advanced 2023</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div class="resume-block">
+                <div class="resume-header">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Projects</h3>
+                </div>
+                <div class="project-list">
+                    <a href="#project-urban" class="project-item">
+                        <h4>Urban Intelligence Platform</h4>
+                        <p class="project-date">January 2026</p>
+                        <p class="project-tech"><i class="fas fa-code"></i> FastAPI, Next.js 14, PostgreSQL, GROQ AI, Tortoise ORM, TypeScript</p>
+                        <p>State-level urban intelligence platform with AI-powered decision support, 7-day forecasting, what-if scenario engine, and citizen engagement workflows</p>
+                    </a>
+                    <a href="#project-workzen" class="project-item">
+                        <h4>WorkZen HRMS</h4>
+                        <p class="project-tech"><i class="fas fa-code"></i> Node.js, Express, TypeScript, MySQL, Prisma, Next.js</p>
+                        <p>Production-grade Human Resource Management System with RBAC, attendance tracking, leave management, and automated payroll processing</p>
+                    </a>
+                    <a href="#project-expense" class="project-item">
+                        <h4>Expense Management System</h4>
+                        <p class="project-tech"><i class="fas fa-code"></i> Node.js, Express, SQLite, Next.js, Tesseract.js (OCR)</p>
+                        <p>Enterprise expense tracking platform with OCR receipt processing, multi-level approval workflows, and multi-currency support</p>
+                    </a>
+                    <a href="#project-terrain" class="project-item">
+                        <h4>Landmannalaugar Terrain Renderer</h4>
+                        <p class="project-date">May 2024 – Jun 2024</p>
+                        <p class="project-tech"><i class="fas fa-code"></i> Python, OpenGL 3.3, Tesseract, NumPy</p>
+                        <p>Real-world terrain visualization of Iceland using satellite imagery, live weather API, and particle systems (100+ FPS)</p>
+                    </a>
+                    <a href="#project-encrypted-messenger" class="project-item">
+                        <h4>End-to-End Encrypted Messaging System</h4>
+                        <p class="project-tech"><i class="fas fa-code"></i> Python, PyCryptodome, Socket Programming, Threading</p>
+                        <p>Secure terminal-based messaging with Diffie-Hellman key exchange, AES-256-GCM encryption, and zero-knowledge relay server</p>
+                    </a>
+                    <a href="#project-youtube" class="project-item">
+                        <h4>YouTube Watchlist Manager</h4>
+                        <p class="project-date">May 2024 – Jun 2024</p>
+                        <p class="project-tech"><i class="fas fa-code"></i> Python, CSV, datetime</p>
+                        <p>Python script with add/list/remove functionalities and auto-cleanup of unwatched videos</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Coursework -->
+            <div class="resume-block">
+                <div class="resume-header">
+                    <i class="fas fa-book"></i>
+                    <h3>Relevant Coursework</h3>
+                </div>
+                <div class="coursework-grid">
+                    <span class="course-tag">Data Structures & Algorithms</span>
+                    <span class="course-tag">Python Programming</span>
+                    <span class="course-tag">C Programming</span>
+                    <span class="course-tag">Operating Systems</span>
+                    <span class="course-tag">Database Management Systems</span>
+                    <span class="course-tag">Theory of Computation</span>
+                    <span class="course-tag">Object-Oriented Programming (Java)</span>
+                    <span class="course-tag">Design Patterns</span>
+                    <span class="course-tag">Computer Networks</span>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="resume-block">
+                <div class="resume-header">
+                    <i class="fas fa-tools"></i>
+                    <h3>Technical Skills</h3>
+                </div>
+                <div class="skills-resume">
+                    <div class="skill-category">
+                        <h4>Programming Languages</h4>
+                        <p>Python, Java, C, C++, JavaScript, TypeScript</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Web Technologies</h4>
+                        <p>HTML, CSS, Node.js, Express.js, Next.js, React</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Databases</h4>
+                        <p>MySQL, SQLite, Prisma ORM</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Tools & Technologies</h4>
+                        <p>Git, GitHub, OpenGL, Tesseract OCR, JWT Authentication</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="resume-block">
+                <div class="resume-header">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Achievements</h3>
+                </div>
+                <ul class="achievements-list">
+                    <li><i class="fas fa-check-circle"></i> Qualified JEE Advanced 2023</li>
+                    <li><i class="fas fa-check-circle"></i> Participated in 2+ Hackathons (SIH 2024, Odoo x Amalthea)</li>
+                    <li><i class="fas fa-check-circle"></i> Maintained consistent CGPA of 9.37 throughout 6 semesters</li>
+                </ul>
+            </div>
+
+            <!-- Positions of Responsibility -->
+            <div class="resume-block">
+                <div class="resume-header">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Positions of Responsibility</h3>
+                </div>
+                <ul class="achievements-list">
+                    <li><i class="fas fa-medal"></i> Group Leader — CSSI Internship</li>
+                    <li><i class="fas fa-medal"></i> Team Lead — Odoo x Amalthea Hackathon</li>
+                </ul>
+            </div>
+
+            <!-- Download Resume Button -->
+            <div class="resume-download">
+                <a href="#" class="btn-primary" onclick="alert('Resume download feature - Add your PDF link here')">
+                    <i class="fas fa-download"></i> Download Full Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Projects -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Explore my technical projects showcasing full-stack development, computer graphics, AI platforms, and enterprise systems</p>
+
+            <!-- Project 1: Urban Intelligence Platform -->
+            <div class="project-detailed" id="project-urban">
+                <div class="project-header">
+                    <h3><i class="fas fa-city"></i> Urban Intelligence Platform</h3>
+                    <div class="project-badges">
+                        <span class="badge badge-primary">FastAPI</span>
+                        <span class="badge badge-primary">Next.js 14</span>
+                        <span class="badge badge-primary">PostgreSQL</span>
+                        <span class="badge badge-primary">GROQ AI</span>
+                        <span class="badge badge-success">Live Demo</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description"><strong>Team C3E1:</strong> Ayaan Goel, Harsh Bhavsar, Nishu Shukla, Nihar Prajapati | <strong>January 2026</strong></p>
+                    <p class="project-description">A state-level Urban Intelligence Platform for early risk prediction, AI-powered decision support, and citizen engagement in urban systems. The platform enables municipal officers and citizens to predict environmental and service risks, test policy decisions, and monitor system health in real-time.</p>
+                    
+                    <div class="project-features">
+                        <h4>Core Features</h4>
+                        <div class="features-grid">
+                            <div class="feature">
+                                <i class="fas fa-brain"></i>
+                                <span><strong>AI Natural Language Queries:</strong> Citizens ask questions in plain English about air quality, traffic, alerts with domain validation and safety guardrails</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-chart-line"></i>
+                                <span><strong>7-Day Forecasting:</strong> Predictive analytics for AQI, water stress, and service metrics using lightweight ML models</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-flask"></i>
+                                <span><strong>What-If Scenario Engine:</strong> Test policy decisions (traffic restrictions, heavy vehicle zones) before implementation with multi-metric impact predictions</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span><strong>JWT Authentication:</strong> Role-based access control (Admin/Citizen) with secure password hashing and 24-hour token expiry</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <span><strong>Citizen Participation:</strong> Data correction requests, dataset access workflows, and admin approval system</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-moon"></i>
+                                <span><strong>Dark Mode Theme:</strong> System-wide theme toggle with persistence and optimized color palettes</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-database"></i>
+                                <span><strong>Real-Time Data Ingestion:</strong> Mixed push/pull model with APScheduler cron jobs, data freshness tracking, and fault tolerance</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span><strong>Risk Scoring & Alerts:</strong> Automated alert generation with severity levels and city-wide risk assessment</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-stack">
+                        <h4>Technology Stack</h4>
+                        <div class="stack-details">
+                            <div class="stack-item">
+                                <strong>Backend:</strong> FastAPI (Python 3.12), PostgreSQL (Aiven Cloud with SSL), Tortoise ORM, APScheduler
+                            </div>
+                            <div class="stack-item">
+                                <strong>AI/ML:</strong> GROQ API (Llama 3.1 70B), scikit-learn, Pandas, NumPy for forecasting and anomaly detection
+                            </div>
+                            <div class="stack-item">
+                                <strong>Frontend:</strong> Next.js 14 (TypeScript, App Router), Tailwind CSS, Chart.js, React Context API
+                            </div>
+                            <div class="stack-item">
+                                <strong>Infrastructure:</strong> Railway (backend), Vercel (frontend), managed PostgreSQL with SSL
+                            </div>
+                            <div class="stack-item">
+                                <strong>Security:</strong> JWT tokens, bcrypt password hashing, role-based access control, protected API routes
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="architecture-diagram">
+                        <h4>System Architecture</h4>
+                        <div class="arch-box">
+                            <p><strong>Modular Monolith Design:</strong> Service-oriented modules without microservice overhead</p>
+                            <p style="margin-top: 10px;"><strong>Data Flow:</strong> IoT Sensors → CDO Validation Layer → Analytics Engine (Forecasting/Anomaly/Risk) → AI Query System → Dashboards</p>
+                            <p style="margin-top: 10px;"><strong>Scheduled Jobs:</strong> 15-min environment pulls, 30-min traffic data, hourly forecasts, 2-hour anomaly detection</p>
+                        </div>
+                    </div>
+
+                    <div class="project-highlights">
+                        <h4>Key Technical Achievements</h4>
+                        <ul>
+                            <li><strong>AI Domain Validation:</strong> Natural language query system with intent detection (RISK, AIR, TRAFFIC, ALERT) and safety guardrails blocking politics, coding, jokes</li>
+                            <li><strong>Data Governance:</strong> Central Data Office (CDO) validation layer with schema validation, freshness tracking, and last-known-good fallback</li>
+                            <li><strong>Scenario Engine:</strong> What-if policy simulator using historical correlation patterns to predict multi-metric impacts with confidence scoring</li>
+                            <li><strong>Citizen Transparency:</strong> Complete data request workflows, correction reporting, admin review system with status tracking</li>
+                            <li><strong>Full-Stack Implementation:</strong> REST API with FastAPI, async ORM with Tortoise, responsive Next.js frontend with TypeScript</li>
+                            <li><strong>Production Deployment:</strong> Live demo on Railway + Vercel with managed PostgreSQL, SSL connections, environment-based configuration</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">API Endpoints</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Service Modules</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">7-Day</span>
+                            <span class="stat-label">Forecast Horizon</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">User Roles (Admin/Citizen)</span>
+                        </div>
+                    </div>
+
+                    <div class="learning-outcomes">
+                        <h4>Impact & Design Principles</h4>
+                        <ul>
+                            <li><strong>Predict Early:</strong> Focus on forecasting and early risk detection, not just reactive reporting</li>
+                            <li><strong>AI-Assisted:</strong> Natural language interface makes urban data accessible to non-technical citizens</li>
+                            <li><strong>Explainable:</strong> Every prediction includes reasoning, confidence scores, and data source attribution</li>
+                            <li><strong>Trustworthy:</strong> Data freshness indicators, system health monitoring, complete audit trails</li>
+                            <li><strong>Decision-Focused:</strong> What-if scenarios enable evidence-based policy decisions before implementation</li>
+                            <li><strong>Secure by Default:</strong> JWT authentication, role-based access, bcrypt password hashing, protected routes</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://c3-e1x-ingenious-7-0-y7f6.vercel.app/login" target="_blank" class="btn-secondary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="https://github.com/Harsh15505/C3E1xIngenious-7.0" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: WorkZen HRMS -->
+            <div class="project-detailed" id="project-workzen">
+                <div class="project-header">
+                    <h3><i class="fas fa-briefcase"></i> WorkZen HRMS</h3>
+                    <div class="project-badges">
+                        <span class="badge badge-primary">Node.js</span>
+                        <span class="badge badge-primary">TypeScript</span>
+                        <span class="badge badge-primary">MySQL</span>
+                        <span class="badge badge-primary">Next.js</span>
+                        <span class="badge badge-success">Production-Ready</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">A production-grade Human Resource Management System (HRMS) built with modern technologies, featuring comprehensive employee management, attendance tracking, and automated payroll processing.</p>
+                    
+                    <div class="project-features">
+                        <h4>Key Features</h4>
+                        <div class="features-grid">
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Authentication & RBAC (Admin, HR Officer, Payroll Officer, Employee)</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users-cog"></i>
+                                <span>User Management with role-based access control</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-clock"></i>
+                                <span>Attendance Tracking (check-in/out, manual overrides)</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-calendar-check"></i>
+                                <span>Leave Management (apply, approve, reject, cancel)</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-money-check-alt"></i>
+                                <span>Payroll Processing with deterministic calculations</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-file-invoice"></i>
+                                <span>Payslip Generation (PDF + email delivery)</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Analytics Dashboard with role-aware insights</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-history"></i>
+                                <span>Complete Audit Logging and change tracking</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-stack">
+                        <h4>Technology Stack</h4>
+                        <div class="stack-details">
+                            <div class="stack-item">
+                                <strong>Backend:</strong> Node.js 18+, Express.js, TypeScript, Prisma ORM
+                            </div>
+                            <div class="stack-item">
+                                <strong>Database:</strong> MySQL 8+ with Prisma for type-safe queries
+                            </div>
+                            <div class="stack-item">
+                                <strong>Authentication:</strong> JWT + bcrypt for secure password hashing
+                            </div>
+                            <div class="stack-item">
+                                <strong>PDF & Email:</strong> Puppeteer (PDF generation), Nodemailer
+                            </div>
+                            <div class="stack-item">
+                                <strong>Frontend (Planned):</strong> Next.js 15, shadcn/ui, Tailwind CSS
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">RESTful API Endpoints</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">9</span>
+                            <span class="stat-label">Database Tables</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">Security Layers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Controllers & Services</span>
+                        </div>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/nishantshukla0808/Amalthea-c3e1" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: Expense Management System -->
+            <div class="project-detailed" id="project-expense">
+                <div class="project-header">
+                    <h3><i class="fas fa-receipt"></i> Expense Management System</h3>
+                    <div class="project-badges">
+                        <span class="badge badge-primary">Node.js</span>
+                        <span class="badge badge-primary">Next.js</span>
+                        <span class="badge badge-primary">Tesseract.js</span>
+                        <span class="badge badge-warning">OCR Powered</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">Full-stack enterprise expense tracking platform with intelligent approval workflows and automated receipt processing using OCR technology.</p>
+                    
+                    <div class="project-features">
+                        <h4>Core Features</h4>
+                        <div class="features-grid">
+                            <div class="feature">
+                                <i class="fas fa-user-shield"></i>
+                                <span>Role-Based Access Control (Admin, Manager, Employee)</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-route"></i>
+                                <span>Multi-Level Approval Workflows with configurable rules</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-camera"></i>
+                                <span>OCR Receipt Processing with Tesseract.js</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-money-bill-wave"></i>
+                                <span>Multi-Currency Support with real-time conversion</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-lock"></i>
+                                <span>Secure File Handling with validation</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-double"></i>
+                                <span>Auto-approval for expenses below thresholds</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="architecture-diagram">
+                        <h4>System Architecture</h4>
+                        <div class="arch-box">
+                            <p><strong>Frontend (Next.js)</strong> ↔ <strong>REST API (Express)</strong> ↔ <strong>SQLite Database</strong></p>
+                            <p style="margin-top: 10px;">↓ OCR Service (Tesseract.js) | Currency API | File Storage</p>
+                        </div>
+                    </div>
+
+                    <div class="project-highlights">
+                        <h4>Technical Highlights</h4>
+                        <ul>
+                            <li>RESTful API with clean separation of concerns (controllers, services, middleware)</li>
+                            <li>Normalized database with 9 core tables supporting complex workflows</li>
+                            <li>JWT authentication with input validation and rate limiting</li>
+                            <li>Five expense states: draft, waiting_approval, approved, rejected, cancelled</li>
+                            <li>Integration with ExchangeRate API for multi-currency handling</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/nishantshukla0808/Amalthea_C3E1" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4: Landmannalaugar Terrain Renderer -->
+            <div class="project-detailed" id="project-terrain">
+                <div class="project-header">
+                    <h3><i class="fas fa-mountain"></i> Landmannalaugar Terrain Renderer</h3>
+                    <div class="project-badges">
+                        <span class="badge badge-primary">Python</span>
+                        <span class="badge badge-primary">OpenGL 3.3</span>
+                        <span class="badge badge-primary">NumPy</span>
+                        <span class="badge badge-info">Computer Graphics</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">Real-world terrain visualization of Landmannalaugar, Iceland using OpenGL and real satellite imagery with live weather integration and particle systems.</p>
+                    
+                    <div class="project-features">
+                        <h4>Advanced Features</h4>
+                        <div class="features-grid">
+                            <div class="feature">
+                                <i class="fas fa-globe-europe"></i>
+                                <span>Geologically accurate terrain data</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-satellite"></i>
+                                <span>9930×7240 pixel satellite texture overlay</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-layer-group"></i>
+                                <span>6 procedural textures with triplanar mapping</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-cloud-sun-rain"></i>
+                                <span>Live weather from OpenWeatherMap API</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-snowflake"></i>
+                                <span>Weather-based particle system (2000 particles)</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-adjust"></i>
+                                <span>Dynamic day/night cycle with real Iceland time</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="performance-metrics">
+                        <h4>Performance Metrics</h4>
+                        <div class="metrics-grid">
+                            <div class="metric">
+                                <strong>65,536</strong> vertices (256×256 grid)
+                            </div>
+                            <div class="metric">
+                                <strong>130,050</strong> triangles
+                            </div>
+                            <div class="metric">
+                                <strong>100-130 FPS</strong> on RTX 3050
+                            </div>
+                            <div class="metric">
+                                <strong>~200 MB</strong> memory usage
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-details">
+                        <h4>Technical Implementation</h4>
+                        <ul>
+                            <li><strong>Rendering:</strong> OpenGL 3.3 Core Profile with Phong lighting</li>
+                            <li><strong>Texturing:</strong> Triplanar mapping eliminating UV stretching</li>
+                            <li><strong>Particles:</strong> GPU-accelerated point sprites for weather effects</li>
+                            <li><strong>Controls:</strong> Full camera system (WASD, mouse look, speed boost)</li>
+                            <li><strong>Location:</strong> Landmannalaugar, Iceland (63.9922°N, 19.0578°W)</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/Harsh15505/landmannalaugar-terrain-renderer" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5: End-to-End Encrypted Messaging System -->
+            <div class="project-detailed" id="project-encrypted-messenger">
+                <div class="project-header">
+                    <h3><i class="fas fa-lock"></i> End-to-End Encrypted Messaging System with Diffie-Hellman Key Exchange</h3>
+                    <div class="project-badges">
+                        <span class="badge badge-primary">Python</span>
+                        <span class="badge badge-primary">PyCryptodome</span>
+                        <span class="badge badge-primary">Socket Programming</span>
+                        <span class="badge badge-warning">Cryptography</span>
+                        <span class="badge badge-success">Security</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">Developed a secure, terminal-based messaging application implementing cryptographic protocols to ensure confidential communication between two parties. The system features a relay server architecture where the server cannot decrypt messages, ensuring true end-to-end encryption.</p>
+                    
+                    <div class="project-features">
+                        <h4>Key Technologies & Implementations</h4>
+                        <div class="features-grid">
+                            <div class="feature">
+                                <i class="fas fa-key"></i>
+                                <span><strong>Diffie-Hellman Key Exchange:</strong> Ephemeral key agreement using 2048-bit safe primes (RFC 3526)</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span><strong>AES-256-GCM Encryption:</strong> Authenticated encryption for message confidentiality and integrity verification</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-server"></i>
+                                <span><strong>Multi-threaded Server:</strong> TCP relay server with session management and concurrent connections</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-network-wired"></i>
+                                <span><strong>Socket Programming:</strong> Custom message framing protocol with 4-byte length prefixes</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-user-secret"></i>
+                                <span><strong>Zero-Knowledge Server:</strong> Relay server cannot decrypt communications</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-fingerprint"></i>
+                                <span><strong>Perfect Forward Secrecy:</strong> Ephemeral key generation for each session</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-stack">
+                        <h4>Security Features</h4>
+                        <div class="security-features">
+                            <ul>
+                                <li><strong>Zero-knowledge relay server:</strong> Server cannot decrypt communications</li>
+                                <li><strong>Ephemeral key generation:</strong> Perfect forward secrecy implementation</li>
+                                <li><strong>SHA-256-based Key Derivation Function (KDF):</strong> Secure key derivation</li>
+                                <li><strong>Session-based isolation:</strong> Unique session identifiers for each conversation</li>
+                                <li><strong>Protection against tampering and replay attacks:</strong> Using authenticated encryption</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="architecture-diagram">
+                        <h4>System Architecture</h4>
+                        <div class="arch-box">
+                            <p><strong>Client A</strong> ↔ <strong>TCP Relay Server</strong> ↔ <strong>Client B</strong></p>
+                            <p style="margin-top: 10px;">↓ Diffie-Hellman Key Exchange | AES-256-GCM Encryption | Session Management</p>
+                        </div>
+                    </div>
+
+                    <div class="project-highlights">
+                        <h4>Technical Highlights</h4>
+                        <ul>
+                            <li>Implemented Diffie-Hellman key exchange using 2048-bit safe primes from RFC 3526</li>
+                            <li>Multi-threaded server architecture with thread-safe operations and automatic resource cleanup</li>
+                            <li>Custom message framing protocol for reliable data transmission over TCP/IP</li>
+                            <li>Practical application of cryptographic principles and secure communication protocols</li>
+                            <li>Demonstrates understanding of network security, concurrent programming, and defense-in-depth strategies</li>
+                        </ul>
+                    </div>
+
+                    <div class="learning-outcomes">
+                        <h4>Impact & Learning Outcomes</h4>
+                        <p>This project demonstrates practical application of cryptographic principles and secure communication protocols, showcasing understanding of:</p>
+                        <ul>
+                            <li>Network security and cryptographic protocol implementation</li>
+                            <li>Concurrent programming and thread-safe operations</li>
+                            <li>Defense-in-depth security strategies</li>
+                            <li>Socket programming and TCP/IP communication</li>
+                            <li>Real-world application of theoretical security concepts</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/Harsh15505/mini-project-encrypted-messenger" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6: YouTube Watchlist Manager -->
+            <div class="project-detailed" id="project-youtube">
+                <div class="project-header">
+                    <h3><i class="fab fa-youtube"></i> YouTube Watchlist Manager</h3>
+                    <div class="project-badges">
+                        <span class="badge badge-primary">Python</span>
+                        <span class="badge badge-primary">CSV</span>
+                        <span class="badge badge-info">Automation</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">Python-based command-line tool for managing YouTube video watchlists with persistent CSV storage and automated cleanup functionality.</p>
+                    
+                    <div class="project-features">
+                        <h4>Features</h4>
+                        <div class="features-grid">
+                            <div class="feature">
+                                <i class="fas fa-plus"></i>
+                                <span>Add videos to watchlist with metadata</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-list"></i>
+                                <span>List and filter watchlist entries</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-trash"></i>
+                                <span>Remove watched videos</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-clock"></i>
+                                <span>Auto-remove unwatched videos after X days</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="learning-outcomes">
+                        <h4>Learning Outcomes</h4>
+                        <ul>
+                            <li>CSV file handling and data persistence</li>
+                            <li>Python datetime module for time-based operations</li>
+                            <li>Error handling and user input validation</li>
+                            <li>Command-line interface design</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/Harsh15505/Project---Youtube-Watchlist-Manager-in-Python" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Technical Skills -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Comprehensive technical competencies across full-stack development, databases, and specialized domains</p>
+
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-category-box">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Python</span>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                            <p class="skill-desc">OpenGL graphics, automation, data processing, web backends</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Java</span>
+                                <span>Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                            <p class="skill-desc">OOP, design patterns, enterprise applications</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>JavaScript/TypeScript</span>
+                                <span>Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                            <p class="skill-desc">Full-stack development, Node.js, Express, Next.js</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>C/C++</span>
+                                <span>Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                            <p class="skill-desc">System programming, DSA implementation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category-box">
+                    <h3><i class="fas fa-globe"></i> Web Development</h3>
+                    <div class="tech-grid">
+                        <div class="tech-card">
+                            <i class="fab fa-node"></i>
+                            <h4>Node.js & Express</h4>
+                            <p>RESTful APIs, middleware, authentication</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fab fa-react"></i>
+                            <h4>Next.js & React</h4>
+                            <p>Server-side rendering, component architecture</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fab fa-html5"></i>
+                            <h4>HTML/CSS</h4>
+                            <p>Responsive design, Tailwind CSS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database & Backend -->
+                <div class="skill-category-box">
+                    <h3><i class="fas fa-database"></i> Database & Backend</h3>
+                    <div class="tech-grid">
+                        <div class="tech-card">
+                            <i class="fas fa-server"></i>
+                            <h4>MySQL & SQLite</h4>
+                            <p>Database design, normalization, queries</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fas fa-layer-group"></i>
+                            <h4>Prisma ORM</h4>
+                            <p>Type-safe database access, migrations</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>JWT & Security</h4>
+                            <p>Authentication, authorization, encryption</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Specialized Skills -->
+                <div class="skill-category-box">
+                    <h3><i class="fas fa-star"></i> Specialized Skills</h3>
+                    <div class="tech-grid">
+                        <div class="tech-card">
+                            <i class="fas fa-cube"></i>
+                            <h4>OpenGL Graphics</h4>
+                            <p>3D rendering, shaders, particle systems</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fas fa-eye"></i>
+                            <h4>OCR (Tesseract.js)</h4>
+                            <p>Receipt processing, data extraction</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fas fa-robot"></i>
+                            <h4>AI/ML Concepts</h4>
+                            <p>Matching algorithms, data analysis</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Version Control -->
+                <div class="skill-category-box">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="tools-list">
+                        <span class="tool-badge"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="tool-badge"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="tool-badge"><i class="fas fa-terminal"></i> Command Line</span>
+                        <span class="tool-badge"><i class="fab fa-npm"></i> npm/yarn</span>
+                        <span class="tool-badge"><i class="fas fa-file-code"></i> VS Code</span>
+                        <span class="tool-badge"><i class="fas fa-envelope"></i> Nodemailer</span>
+                        <span class="tool-badge"><i class="fas fa-file-pdf"></i> Puppeteer (PDF)</span>
+                        <span class="tool-badge"><i class="fas fa-cloud"></i> API Integration</span>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category-box">
+                    <h3><i class="fas fa-users"></i> Professional Skills</h3>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill">
+                            <i class="fas fa-comments"></i>
+                            <h4>Communication</h4>
+                            <p>Clear technical documentation and presentation skills</p>
+                        </div>
+                        <div class="soft-skill">
+                            <i class="fas fa-user-friends"></i>
+                            <h4>Teamwork</h4>
+                            <p>Collaborative development and code reviews</p>
+                        </div>
+                        <div class="soft-skill">
+                            <i class="fas fa-project-diagram"></i>
+                            <h4>Leadership</h4>
+                            <p>Team coordination and project management</p>
+                        </div>
+                        <div class="soft-skill">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Problem Solving</h4>
+                            <p>Analytical thinking and debugging</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Leadership & Collaboration -->
+    <section id="leadership" class="leadership-section">
+        <div class="container">
+            <h2 class="section-title">Leadership & Collaboration</h2>
+            <p class="section-subtitle">Demonstrating team leadership, collaboration, and project management across various initiatives</p>
+
+            <div class="leadership-timeline">
+                <!-- Odoo x Amalthea Hackathon -->
+                <div class="leadership-item">
+                    <div class="leadership-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Team Lead - Odoo x Amalthea Hackathon</h3>
+                        <p class="leadership-date">Recent | PDPU</p>
+                        <p>Led a cross-functional team in developing innovative solutions during a competitive hackathon environment. Coordinated task distribution, managed timeline, and facilitated effective communication among team members.</p>
+                        <div class="leadership-skills">
+                            <span class="skill-tag">Team Coordination</span>
+                            <span class="skill-tag">Time Management</span>
+                            <span class="skill-tag">Technical Leadership</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CSSI Internship -->
+                <div class="leadership-item">
+                    <div class="leadership-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="leadership-content">
+                        <h3>Group Leader - CSSI Internship</h3>
+                        <p class="leadership-date">2024</p>
+                        <p>Led a group during Computer Science Summer Institute internship, coordinating project activities and ensuring effective team collaboration on technical assignments.</p>
+                        <div class="leadership-skills">
+                            <span class="skill-tag">Group Leadership</span>
+                            <span class="skill-tag">Project Coordination</span>
+                            <span class="skill-tag">Mentoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Bhavsar Harsh</h3>
+                    <p>Computer Engineering Student passionate about building innovative and impactful technology solutions.</p>
+                    <div class="footer-social">
+                        <a href="mailto:bhavsarharsh155@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://linkedin.com/in/harsh-bhavsar-6559b62a8" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Harsh15505" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="tel:+917043784439" title="Phone"><i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#cover">Home</a></li>
+                        <li><a href="#introduction">About</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#leadership">Leadership</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Information</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Ahmedabad, Gujarat, India</p>
+                    <p><i class="fas fa-university"></i> Pandit Deendayal Petroleum University</p>
+                    <p><i class="fas fa-envelope"></i> bhavsarharsh155@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 7043784439</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bhavsar Harsh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
